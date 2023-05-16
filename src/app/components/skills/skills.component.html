@@ -1,0 +1,13 @@
+<div class="table-responsive">
+    <h5 class="card-title text-center font-weight-bold">SKILLS</h5>
+      <div class="row">
+      <div class="col-md-6" *ngFor="let skill of skills; let i = index">
+        <div class="list-group">
+          <div class="list-group-item">{{ skills[i].name }}: {{ skills[i].percentage }}</div>
+           <div class="progress">
+            <div class="progress-bar" role="progressbar" [style.width]="skills[i].percentage + '%'" [attr.aria-valuenow]="skills[i].percentage" aria-valuemin="0" aria-valuemax="100">{{ skills[i].percentage }}%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

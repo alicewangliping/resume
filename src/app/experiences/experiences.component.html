@@ -1,0 +1,25 @@
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h5 class="card-title text-center font-weight-bold">EXPERIENCE</h5>
+        <div *ngFor="let company of companies" class="company-container">
+        <div class="row">
+          <div class="col-md-4 bg-green text-white align-middle">
+            <h6>{{ company.name }}</h6>
+            <p class="dates">{{ company.startDate }} – {{ company.endDate }}</p>
+          </div>
+          <div class="col-md-8">
+            <h5 class="card-title">Senior Software Developer</h5>
+            <ul class="list-group list-group-flush">
+              <div class="company-details">
+                <ul>
+                  <li *ngFor="let detail of company.details">{{ detail }}</li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 

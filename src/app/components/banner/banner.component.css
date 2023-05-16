@@ -1,0 +1,16 @@
+.card-body {
+    background-image: url("bg.png"); 
+    background-size: cover; 
+    background-position: center;
+  }
+  .portrait-image {
+    width: 1400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+
+  .display-5 fw-bold {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }

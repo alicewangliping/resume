@@ -1,0 +1,8 @@
+.row mt-5 {
+    width: 1000px;
+    overflow: hidden;
+    background: rgb(113, 119, 131);
+  }
+  .custom-progress .progress-bar {
+    width: 100%; /*bar weidth */
+  }
